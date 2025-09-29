@@ -120,4 +120,12 @@ All colors MUST be HSL.
   body {
     @apply bg-background text-foreground;
   }
+
+  /* Background grid pattern */
+  .bg-grid-pattern {
+    background-image: 
+      linear-gradient(to right, hsl(var(--insurance-blue) / 0.05) 1px, transparent 1px),
+      linear-gradient(to bottom, hsl(var(--insurance-blue) / 0.05) 1px, transparent 1px);
+    background-size: 60px 60px;
+  }
 }

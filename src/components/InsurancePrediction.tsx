@@ -103,7 +103,14 @@ const InsurancePrediction = () => {
   };
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-gradient-to-br from-background via-background to-insurance-blue/5 relative overflow-hidden">
+      {/* Background decoration */}
+      <div className="absolute inset-0 bg-grid-pattern opacity-30"></div>
+      <div className="absolute top-0 right-0 w-96 h-96 bg-insurance-blue/10 rounded-full blur-3xl transform translate-x-48 -translate-y-48"></div>
+      <div className="absolute bottom-0 left-0 w-96 h-96 bg-insurance-accent/10 rounded-full blur-3xl transform -translate-x-48 translate-y-48"></div>
+      
+      {/* Content */}
+      <div className="relative z-10">
       {/* Hero Section */}
       <div className="bg-gradient-hero py-16 px-4">
         <div className="max-w-6xl mx-auto text-center text-white">
@@ -343,6 +350,7 @@ const InsurancePrediction = () => {
                 </div>
               </CardContent>
             </Card>
+          </div>
           </div>
         </div>
       </div>
