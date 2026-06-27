@@ -1,73 +1,32 @@
-# Welcome to your Lovable project
+# 🔮 Insurance Flow Predictor — ML + React Dashboard
 
-## Project info
+A full-stack insurance prediction application with a React frontend 
+and Machine Learning model for predicting insurance costs.
 
-**URL**: https://lovable.dev/projects/a2ad045a-66d2-4293-97d3-8c43de91d06c
+## ✨ Features
+- 🔮 Insurance cost prediction using ML
+- ⚛️ React + Vite modern frontend
+- 📊 Interactive prediction dashboard
+- 🎨 Beautiful UI with Tailwind CSS
+- 📈 Data visualization & insights
 
-## How can I edit this code?
+## 🛠️ Tech Stack
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
-There are several ways of editing your application.
+## 🧠 ML Model
+- Insurance cost prediction
+- Features: age, BMI, smoker status, region
+- Regression model for accurate predictions
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/a2ad045a-66d2-4293-97d3-8c43de91d06c) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+## 🚀 How to Run
+```bash
+git clone https://github.com/Hariprasath2432005/predict-insurance-flow.git
+cd predict-insurance-flow
+npm install
 npm run dev
 ```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/a2ad045a-66d2-4293-97d3-8c43de91d06c) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
